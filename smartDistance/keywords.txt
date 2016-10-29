@@ -1,0 +1,4 @@
+smartDistance	KEYWORD1
+getPulseTime	KEYWORD2
+distanceCalcReal	KEYWORD2
+distanceCalcAverage	KEYWORD2
