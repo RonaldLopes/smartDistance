@@ -1,5 +1,5 @@
 # SmartDistance
-Esta biblioteca para a plataforma Arduino utiliza um sensor ultrassônico HC-SR04 e a plataforma Arduino para o calculo da distância com base na velocidade do som. Existe 2 funções que efetuam esse calculo, a primeira utiliza o valor medio da velocidade do som e a segunda usa como base a temperatura do ambiente para calcular a respectiva velocidade do som.
+Esta biblioteca para a plataforma Arduino utiliza um sensor ultrassônico HC-SR04 para o calculo da distância com base na velocidade do som. Existe 2 funções que efetuam esse calculo, a primeira utiliza o valor medio da velocidade do som e a segunda usa como base a temperatura do ambiente para calcular a respectiva velocidade do som.
 
 #Recursos
 Inicialmente será necessário instanciar um objeto do tipo smartDistance com os valores referentes aos pinos de TRIGGER e ECHO:
