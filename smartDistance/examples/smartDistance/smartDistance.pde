@@ -15,8 +15,6 @@ Thermistor temp(0); // calculo da temperatura
 void setup()
 {
   Serial.begin(9600);
-  pinMode(trigger,OUTPUT);
-  pinMode(echo,INPUT);
 }
 
 void loop()
