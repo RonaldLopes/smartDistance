@@ -23,7 +23,7 @@ float smartDistance::getPulseTime()
   digitalWrite(_trigger,HIGH);
   delayMicroseconds(10);
   digitalWrite(_trigger,LOW);
-  long tempo = pulseIn(_echo,HIGH);
+  float tempo = pulseIn(_echo,HIGH);
   return tempo;
 }
 
